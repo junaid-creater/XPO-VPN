@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "40325240366",
+    "project_id": "xpo-vpn",
+    "storage_bucket": "xpo-vpn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40325240366:android:420cc59655020e295271bf",
+        "android_client_info": {
+          "package_name": "jbox.skillz.xpovpn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "40325240366-9snto6hur38p9v1n7troqdrv9ct0o0g0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwqMMqv1UJAs8KuszZ0bTD_dYgnm-V4uA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "40325240366-9snto6hur38p9v1n7troqdrv9ct0o0g0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

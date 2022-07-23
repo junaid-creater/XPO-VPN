@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Gradle: net.grandcentrix.tray:tray:0.12.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ce4ebf0a1a1961f128674e2639c1f5dc/jetified-tray-0.12.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0bc49f6b9cc417dc5c3708629ef5e264/jetified-tray-0.12.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ce4ebf0a1a1961f128674e2639c1f5dc/jetified-tray-0.12.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ce4ebf0a1a1961f128674e2639c1f5dc/jetified-tray-0.12.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0bc49f6b9cc417dc5c3708629ef5e264/jetified-tray-0.12.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0bc49f6b9cc417dc5c3708629ef5e264/jetified-tray-0.12.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0bc49f6b9cc417dc5c3708629ef5e264/jetified-tray-0.12.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.grandcentrix.tray/tray/0.12.0/4eb13ac3bfa28090a9c93e6e9107465864ffc6bd/tray-0.12.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.grandcentrix.tray/tray/0.12.0/3296a6ae8ef0b89d56e4cb5fae3ef254dcb17c0d/tray-0.12.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

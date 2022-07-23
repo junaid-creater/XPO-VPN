@@ -1,0 +1,378 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="jbox.skillz.xpovpn"
+4    android:versionCode="6"
+5    android:versionName="1.5" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+11-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:6:5-76
+11-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:6:22-73
+12    <uses-permission android:name="android.permission.BLUETOOTH" />
+12-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:7:5-68
+12-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:7:22-65
+13    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+13-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:8:5-74
+13-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:8:22-71
+14    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+14-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:9:5-76
+14-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:9:22-73
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:10:5-67
+15-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:10:22-64
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:11:5-79
+16-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:11:22-76
+17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+17-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:12:5-81
+17-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:12:22-78
+18    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+18-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:13:5-85
+18-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:13:22-82
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:14:5-77
+19-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:14:22-74
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:15:5-68
+20-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:15:22-65
+21    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+21-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:16:5-78
+21-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:16:22-75
+22    <uses-permission android:name="com.android.vending.BILLING" />
+22-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:17:5-67
+22-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:17:22-64
+23    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+23-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:18:5-84
+23-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:18:22-81
+24    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+24-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:19:5-21:47
+24-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:20:9-57
+25    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+25-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:23:5-78
+25-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:23:22-75
+26    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+26-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\92d9d5e3975f636fc62ba87066cf298a\play-services-measurement-18.0.0\AndroidManifest.xml:26:5-110
+26-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\92d9d5e3975f636fc62ba87066cf298a\play-services-measurement-18.0.0\AndroidManifest.xml:26:22-107
+27    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+27-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\9b17087655fa7de52970064b0f280d36\firebase-iid-21.0.1\AndroidManifest.xml:26:5-82
+27-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\9b17087655fa7de52970064b0f280d36\firebase-iid-21.0.1\AndroidManifest.xml:26:22-79
+28
+29    <application
+29-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:25:5-91:19
+30        android:name="jbox.skillz.xpovpn.AppController"
+30-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:26:9-38
+31        android:allowBackup="true"
+31-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:27:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.0.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\f37b697c51f4eb03434e82986b196a06\core-1.0.0\AndroidManifest.xml:22:18-86
+33        android:debuggable="true"
+34        android:hardwareAccelerated="false"
+34-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:28:9-44
+35        android:icon="@mipmap/ic_launcher_vpn"
+35-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:29:9-47
+36        android:label="@string/app_name"
+36-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:30:9-41
+37        android:largeHeap="true"
+37-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:31:9-33
+38        android:supportsRtl="true"
+38-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:32:9-35
+39        android:testOnly="true"
+40        android:theme="@style/AppTheme" >
+40-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:33:9-40
+41        <activity
+41-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:35:9-44:20
+42            android:name="jbox.skillz.xpovpn.activity.SplashActivity"
+42-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:36:13-52
+43            android:noHistory="true"
+43-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:37:13-37
+44            android:theme="@style/Splash" >
+44-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:38:13-42
+45            <intent-filter>
+45-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:39:13-43:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:40:17-69
+46-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:40:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:42:17-77
+48-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:42:27-74
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:45:9-49:20
+52            android:name="jbox.skillz.xpovpn.activity.MainActivity"
+52-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:46:13-50
+53            android:label="" >
+53-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:47:13-29
+54        </activity>
+55        <activity android:name="jbox.skillz.xpovpn.activity.VPNListActivity" />
+55-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:50:9-62
+55-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:50:19-59
+56        <activity
+56-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:51:9-53:46
+57            android:name="jbox.skillz.xpovpn.activity.VPNInfoActivity"
+57-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:52:13-53
+58            android:launchMode="singleTop" />
+58-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:53:13-43
+59
+60        <service
+60-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:55:9-61:19
+61            android:name="de.blinkt.openvpn.core.OpenVPNService"
+61-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:56:13-65
+62            android:permission="android.permission.BIND_VPN_SERVICE" >
+62-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:57:13-69
+63            <intent-filter>
+63-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:58:13-60:29
+64                <action android:name="android.net.VpnService" />
+64-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:59:17-65
+64-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:59:25-62
+65            </intent-filter>
+66        </service>
+67
+68        <activity
+68-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:63:9-65:48
+69            android:name="jbox.skillz.xpovpn.activity.TOSActivity"
+69-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:64:13-49
+70            android:theme="@style/AppTheme2" />
+70-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:65:13-45
+71        <activity
+71-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:66:9-69:64
+72            android:name="com.google.android.gms.ads.AdActivity"
+72-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:67:13-65
+73            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+73-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:68:13-122
+74            android:exported="false"
+74-->[com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\5010182e6a885cded7fd009e14c7db62\jetified-play-services-ads-lite-17.1.2\AndroidManifest.xml:32:13-37
+75            android:theme="@android:style/Theme.Translucent" />
+75-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:69:13-61
+76
+77        <meta-data
+77-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:71:9-73:69
+78            android:name="com.google.android.gms.version"
+78-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:72:13-58
+79            android:value="@integer/google_play_services_version" />
+79-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:73:13-66
+80
+81        <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+82        <meta-data
+82-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:76:9-78:69
+83            android:name="com.google.android.gms.ads.APPLICATION_ID"
+83-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:77:13-69
+84            android:value="ca-app-pub-2087576898425893~3914695671" />
+84-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:78:13-67
+85
+86        <service android:name="jbox.skillz.xpovpn.service.MyFirebaseMessagingService" >
+86-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:80:9-84:19
+86-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:80:18-68
+87            <intent-filter>
+87-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:81:13-83:29
+88                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+88-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:82:17-78
+88-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:82:25-75
+89            </intent-filter>
+90        </service>
+91        <service android:name="jbox.skillz.xpovpn.service.MyFirebaseInstanceIDService" >
+91-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:85:9-89:19
+91-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:85:18-69
+92            <intent-filter>
+92-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:86:13-88:29
+93                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+93-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:87:17-80
+93-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:87:25-77
+94            </intent-filter>
+95        </service>
+96
+97        <!--
+98             FirebaseMessagingService performs security checks at runtime,
+99             but set to not exported to explicitly avoid allowing another app to call it.
+100        -->
+101        <service
+101-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\a400db3e4f719a22fbec31b897874061\firebase-messaging-21.0.1\AndroidManifest.xml:28:9-35:19
+102            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+102-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\a400db3e4f719a22fbec31b897874061\firebase-messaging-21.0.1\AndroidManifest.xml:29:13-82
+103            android:directBootAware="true"
+103-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\a400db3e4f719a22fbec31b897874061\firebase-messaging-21.0.1\AndroidManifest.xml:30:13-43
+104            android:exported="false" >
+104-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\a400db3e4f719a22fbec31b897874061\firebase-messaging-21.0.1\AndroidManifest.xml:31:13-37
+105            <intent-filter android:priority="-500" >
+105-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:81:13-83:29
+106                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+106-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:82:17-78
+106-->E:\junaidafzal\TZABZUB\XPO VPN\app\src\main\AndroidManifest.xml:82:25-75
+107            </intent-filter>
+108        </service>
+109        <service
+109-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\a400db3e4f719a22fbec31b897874061\firebase-messaging-21.0.1\AndroidManifest.xml:36:9-42:19
+110            android:name="com.google.firebase.components.ComponentDiscoveryService"
+110-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\a400db3e4f719a22fbec31b897874061\firebase-messaging-21.0.1\AndroidManifest.xml:37:13-84
+111            android:directBootAware="true"
+111-->[com.google.firebase:firebase-common:19.5.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\1907d02ff4d08ef3e963ae2585cc71d1\firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+112            android:exported="false" >
+112-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\a400db3e4f719a22fbec31b897874061\firebase-messaging-21.0.1\AndroidManifest.xml:38:13-37
+113            <meta-data
+113-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\a400db3e4f719a22fbec31b897874061\firebase-messaging-21.0.1\AndroidManifest.xml:39:13-41:85
+114                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+114-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\a400db3e4f719a22fbec31b897874061\firebase-messaging-21.0.1\AndroidManifest.xml:40:17-119
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\a400db3e4f719a22fbec31b897874061\firebase-messaging-21.0.1\AndroidManifest.xml:41:17-82
+116            <meta-data
+116-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\3f4457fe55d8810d51c6a1f10d0c5a0d\play-services-measurement-api-18.0.0\AndroidManifest.xml:30:13-32:85
+117                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+117-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\3f4457fe55d8810d51c6a1f10d0c5a0d\play-services-measurement-api-18.0.0\AndroidManifest.xml:31:17-139
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\3f4457fe55d8810d51c6a1f10d0c5a0d\play-services-measurement-api-18.0.0\AndroidManifest.xml:32:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\9b17087655fa7de52970064b0f280d36\firebase-iid-21.0.1\AndroidManifest.xml:32:13-34:85
+120                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+120-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\9b17087655fa7de52970064b0f280d36\firebase-iid-21.0.1\AndroidManifest.xml:33:17-96
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\9b17087655fa7de52970064b0f280d36\firebase-iid-21.0.1\AndroidManifest.xml:34:17-82
+122            <meta-data
+122-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\6c20c835d24c0744afbb96ac3716e1f3\firebase-installations-16.3.5\AndroidManifest.xml:18:13-20:85
+123                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+123-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\6c20c835d24c0744afbb96ac3716e1f3\firebase-installations-16.3.5\AndroidManifest.xml:19:17-127
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\6c20c835d24c0744afbb96ac3716e1f3\firebase-installations-16.3.5\AndroidManifest.xml:20:17-82
+125            <meta-data
+125-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\a5ab34835f094882f6a0d835199e62ee\firebase-datatransport-17.0.10\AndroidManifest.xml:28:13-30:85
+126                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+126-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\a5ab34835f094882f6a0d835199e62ee\firebase-datatransport-17.0.10\AndroidManifest.xml:29:17-115
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\a5ab34835f094882f6a0d835199e62ee\firebase-datatransport-17.0.10\AndroidManifest.xml:30:17-82
+128            <!--
+129                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+130                clients to use it as well, by defining this registrar in their own core/common library.
+131            -->
+132            <meta-data
+132-->[com.google.firebase:firebase-common:19.5.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\1907d02ff4d08ef3e963ae2585cc71d1\firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+133                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+133-->[com.google.firebase:firebase-common:19.5.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\1907d02ff4d08ef3e963ae2585cc71d1\firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+134                android:value="com.google.firebase.components.ComponentRegistrar" />
+134-->[com.google.firebase:firebase-common:19.5.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\1907d02ff4d08ef3e963ae2585cc71d1\firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+135        </service>
+136
+137        <provider
+137-->[net.grandcentrix.tray:tray:0.12.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\7844c39ee50ab41babcf66a7f2ee9d2b\jetified-tray-0.12.0\AndroidManifest.xml:12:9-16:44
+138            android:name="net.grandcentrix.tray.provider.TrayContentProvider"
+138-->[net.grandcentrix.tray:tray:0.12.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\7844c39ee50ab41babcf66a7f2ee9d2b\jetified-tray-0.12.0\AndroidManifest.xml:13:13-78
+139            android:authorities="jbox.skillz.xpovpn.tray"
+139-->[net.grandcentrix.tray:tray:0.12.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\7844c39ee50ab41babcf66a7f2ee9d2b\jetified-tray-0.12.0\AndroidManifest.xml:14:13-56
+140            android:exported="false"
+140-->[net.grandcentrix.tray:tray:0.12.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\7844c39ee50ab41babcf66a7f2ee9d2b\jetified-tray-0.12.0\AndroidManifest.xml:15:13-37
+141            android:multiprocess="false" />
+141-->[net.grandcentrix.tray:tray:0.12.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\7844c39ee50ab41babcf66a7f2ee9d2b\jetified-tray-0.12.0\AndroidManifest.xml:16:13-41
+142        <provider
+142-->[com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\5010182e6a885cded7fd009e14c7db62\jetified-play-services-ads-lite-17.1.2\AndroidManifest.xml:35:9-39:39
+143            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+143-->[com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\5010182e6a885cded7fd009e14c7db62\jetified-play-services-ads-lite-17.1.2\AndroidManifest.xml:36:13-76
+144            android:authorities="jbox.skillz.xpovpn.mobileadsinitprovider"
+144-->[com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\5010182e6a885cded7fd009e14c7db62\jetified-play-services-ads-lite-17.1.2\AndroidManifest.xml:37:13-73
+145            android:exported="false"
+145-->[com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\5010182e6a885cded7fd009e14c7db62\jetified-play-services-ads-lite-17.1.2\AndroidManifest.xml:38:13-37
+146            android:initOrder="100" />
+146-->[com.google.android.gms:play-services-ads-lite:17.1.2] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\5010182e6a885cded7fd009e14c7db62\jetified-play-services-ads-lite-17.1.2\AndroidManifest.xml:39:13-36
+147
+148        <receiver
+148-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\92d9d5e3975f636fc62ba87066cf298a\play-services-measurement-18.0.0\AndroidManifest.xml:29:9-33:20
+149            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+149-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\92d9d5e3975f636fc62ba87066cf298a\play-services-measurement-18.0.0\AndroidManifest.xml:30:13-85
+150            android:enabled="true"
+150-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\92d9d5e3975f636fc62ba87066cf298a\play-services-measurement-18.0.0\AndroidManifest.xml:31:13-35
+151            android:exported="false" >
+151-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\92d9d5e3975f636fc62ba87066cf298a\play-services-measurement-18.0.0\AndroidManifest.xml:32:13-37
+152        </receiver>
+153
+154        <service
+154-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\92d9d5e3975f636fc62ba87066cf298a\play-services-measurement-18.0.0\AndroidManifest.xml:35:9-38:40
+155            android:name="com.google.android.gms.measurement.AppMeasurementService"
+155-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\92d9d5e3975f636fc62ba87066cf298a\play-services-measurement-18.0.0\AndroidManifest.xml:36:13-84
+156            android:enabled="true"
+156-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\92d9d5e3975f636fc62ba87066cf298a\play-services-measurement-18.0.0\AndroidManifest.xml:37:13-35
+157            android:exported="false" />
+157-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\92d9d5e3975f636fc62ba87066cf298a\play-services-measurement-18.0.0\AndroidManifest.xml:38:13-37
+158        <service
+158-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\92d9d5e3975f636fc62ba87066cf298a\play-services-measurement-18.0.0\AndroidManifest.xml:39:9-43:72
+159            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+159-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\92d9d5e3975f636fc62ba87066cf298a\play-services-measurement-18.0.0\AndroidManifest.xml:40:13-87
+160            android:enabled="true"
+160-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\92d9d5e3975f636fc62ba87066cf298a\play-services-measurement-18.0.0\AndroidManifest.xml:41:13-35
+161            android:exported="false"
+161-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\92d9d5e3975f636fc62ba87066cf298a\play-services-measurement-18.0.0\AndroidManifest.xml:42:13-37
+162            android:permission="android.permission.BIND_JOB_SERVICE" />
+162-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\92d9d5e3975f636fc62ba87066cf298a\play-services-measurement-18.0.0\AndroidManifest.xml:43:13-69
+163
+164        <receiver
+164-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\9b17087655fa7de52970064b0f280d36\firebase-iid-21.0.1\AndroidManifest.xml:37:9-44:20
+165            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+165-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\9b17087655fa7de52970064b0f280d36\firebase-iid-21.0.1\AndroidManifest.xml:38:13-78
+166            android:exported="true"
+166-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\9b17087655fa7de52970064b0f280d36\firebase-iid-21.0.1\AndroidManifest.xml:39:13-36
+167            android:permission="com.google.android.c2dm.permission.SEND" >
+167-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\9b17087655fa7de52970064b0f280d36\firebase-iid-21.0.1\AndroidManifest.xml:40:13-73
+168            <intent-filter>
+168-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\9b17087655fa7de52970064b0f280d36\firebase-iid-21.0.1\AndroidManifest.xml:41:13-43:29
+169                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+169-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\9b17087655fa7de52970064b0f280d36\firebase-iid-21.0.1\AndroidManifest.xml:42:17-81
+169-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\9b17087655fa7de52970064b0f280d36\firebase-iid-21.0.1\AndroidManifest.xml:42:25-78
+170            </intent-filter>
+171        </receiver>
+172
+173        <provider
+173-->[com.google.firebase:firebase-common:19.5.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\1907d02ff4d08ef3e963ae2585cc71d1\firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+174            android:name="com.google.firebase.provider.FirebaseInitProvider"
+174-->[com.google.firebase:firebase-common:19.5.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\1907d02ff4d08ef3e963ae2585cc71d1\firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+175            android:authorities="jbox.skillz.xpovpn.firebaseinitprovider"
+175-->[com.google.firebase:firebase-common:19.5.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\1907d02ff4d08ef3e963ae2585cc71d1\firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+176            android:directBootAware="true"
+176-->[com.google.firebase:firebase-common:19.5.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\1907d02ff4d08ef3e963ae2585cc71d1\firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+177            android:exported="false"
+177-->[com.google.firebase:firebase-common:19.5.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\1907d02ff4d08ef3e963ae2585cc71d1\firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+178            android:initOrder="100" />
+178-->[com.google.firebase:firebase-common:19.5.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\1907d02ff4d08ef3e963ae2585cc71d1\firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+179
+180        <activity
+180-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\f411187c1afc497eea4080293f383559\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+181            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+181-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\f411187c1afc497eea4080293f383559\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+182            android:exported="false"
+182-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\f411187c1afc497eea4080293f383559\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+183            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+183-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\f411187c1afc497eea4080293f383559\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+184
+185        <service
+185-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\4eeb3ed1ff3f368bde8adb6f2075f3da\transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+186            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+186-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\4eeb3ed1ff3f368bde8adb6f2075f3da\transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+187            android:exported="false" >
+187-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\4eeb3ed1ff3f368bde8adb6f2075f3da\transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+188            <meta-data
+188-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\4eeb3ed1ff3f368bde8adb6f2075f3da\transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+189                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+189-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\4eeb3ed1ff3f368bde8adb6f2075f3da\transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+190                android:value="cct" />
+190-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\4eeb3ed1ff3f368bde8adb6f2075f3da\transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+191        </service>
+192        <service
+192-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\96688a529f1c9d8ebc8d3ac806d3ed02\transport-runtime-2.2.5\AndroidManifest.xml:26:9-30:19
+193            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+193-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\96688a529f1c9d8ebc8d3ac806d3ed02\transport-runtime-2.2.5\AndroidManifest.xml:27:13-117
+194            android:exported="false"
+194-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\96688a529f1c9d8ebc8d3ac806d3ed02\transport-runtime-2.2.5\AndroidManifest.xml:28:13-37
+195            android:permission="android.permission.BIND_JOB_SERVICE" >
+195-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\96688a529f1c9d8ebc8d3ac806d3ed02\transport-runtime-2.2.5\AndroidManifest.xml:29:13-69
+196        </service>
+197
+198        <receiver
+198-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\96688a529f1c9d8ebc8d3ac806d3ed02\transport-runtime-2.2.5\AndroidManifest.xml:32:9-34:40
+199            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+199-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\96688a529f1c9d8ebc8d3ac806d3ed02\transport-runtime-2.2.5\AndroidManifest.xml:33:13-132
+200            android:exported="false" />
+200-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\joni\.gradle\caches\transforms-2\files-2.1\96688a529f1c9d8ebc8d3ac806d3ed02\transport-runtime-2.2.5\AndroidManifest.xml:34:13-37
+201    </application>
+202
+203</manifest>
